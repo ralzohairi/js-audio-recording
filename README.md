@@ -21,25 +21,27 @@ To start the audio recording, the microphone icon must be clicked. Once the icon
 
  When the recording starts, the elapsed recording time is displayed alongside two buttons that allow stopping and canceling the ongoing audio recording. 
 
-The following GIF image demonstrates starting the audio recording.<br/>
+The following GIF image demonstrates starting the audio recording.<br/>  
+
 ![alt text](https://github.com/ralzohairi/audio-recording-in-js/blob/master/images/audio-recording-start.gif?raw=true)
 
 * ### Stopping the Audio Recording
 
 To stop the ongoing audio recording, the stop button should be clicked. Once the audio recording has successfully stopped, the audio is played back to the user.
 
-The following GIF image demonstrates stopping the audio recording.
-<br/>
+The following GIF image demonstrates stopping the audio recording.<br/> 
+
 ![alt text](https://github.com/ralzohairi/audio-recording-in-js/blob/master/images/stoping-audio-recording.gif?raw=true)
 
 * ### Cancelling the Audio Recording
 To cancel the ongoing audio recording, the cancel button should be clicked.
-The following GIF image demonstrates stopping the audio recording.
-<br/>
+The following GIF image demonstrates stopping the audio recording.<br/> 
+
 ![alt text](https://github.com/ralzohairi/audio-recording-in-js/blob/master/images/canceling-audio-recording.gif?raw=true)
 
 * ### Starting the Audio Recording in a Browser that does not support the Audio Recording API
 When the user attempts to start an audio recording in a browser that does not support the audio recording API, a message box will be displayed for the user to inform him why they cannot use the audio recording feature.
 
-The following GIF image shows the message box displayed to the user.<br/>
+The following GIF image shows the message box displayed to the user.<br/> 
+
 ![alt text](https://github.com/ralzohairi/audio-recording-in-js/blob/master/images/audio-recording-not-supported.gif?raw=true)
