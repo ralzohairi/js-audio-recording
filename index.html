@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Audio Recording API Demo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="audio-recording-container">
+        <h1 class="title">Audio Recording API Demo</h1>
+        <i class="start-recording-button fa fa-microphone" aria-hidden="true"></i>
+        <div class="recording-contorl-buttons-container hide">
+            <i class="cancel-recording-button fa fa-times-circle-o" aria-hidden="true"></i>
+            <div class="recording-elapsed-time">
+                <i class="red-recording-dot fa fa-circle" aria-hidden="true"></i>
+                <p class="elapsed-time"></p>
+            </div>
+            <i class="stop-recording-button fa fa-stop-circle-o" aria-hidden="true"></i>
+        </div>
+        <div class="text-indication-of-audio-playing-container">
+            <p class="text-indication-of-audio-playing hide">Audio is playing<span>.</span><span>.</span><span>.</span></p>
+        </div>
+    </div>
+    <div class="overlay hide">
+        <div class="browser-not-supporting-audio-recording-box">
+            <p>To record audio, use browsers like Chrome and Firefox that support audio recording.</p>
+            <button type="button" class="close-browser-not-supported-box">Ok.</button>
+        </div>
+    </div>
+
+    <audio controls class="audio-element hide">
+    </audio>
+
+    <script src="js/audio-recording.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
